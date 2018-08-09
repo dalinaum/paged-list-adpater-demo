@@ -1,0 +1,16 @@
+{
+  "count": 949,
+  "previous": null,
+  "results": [
+    {
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/1\/",
+      "name": "bulbasaur"
+    },
+    ...
+    {
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/20\/",
+      "name": "raticate"
+    }
+  ],
+  "next": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/?limit=20&offset=20"
+}
