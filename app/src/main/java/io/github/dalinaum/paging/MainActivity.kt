@@ -91,7 +91,7 @@ class MainActivity : AppCompatActivity() {
 
     private class DiffItemCallback : DiffUtil.ItemCallback<Result>() {
         override fun areItemsTheSame(oldItem: Result, newItem: Result): Boolean =
-                oldItem === newItem
+                oldItem.url == newItem.url
 
         override fun areContentsTheSame(oldItem: Result, newItem: Result): Boolean =
                 oldItem.name == newItem.name && oldItem.url == newItem.url
